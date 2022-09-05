@@ -13,5 +13,9 @@
     "vite": "^3.1.0",
     "vite-plugin-compression": "^0.5.1"
   },
-  "license": "CC-BY-NC-SA-4.0"
+  "license": "CC-BY-NC-SA-4.0",
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "open-props": "^1.4.14"
+  }
 }

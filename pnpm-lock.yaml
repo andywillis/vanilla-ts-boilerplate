@@ -25,9 +25,14 @@ importers:
 
   packages/client:
     specifiers:
+      classnames: ^2.3.1
+      open-props: ^1.4.14
       typescript: ^4.6.4
       vite: ^3.1.0
       vite-plugin-compression: ^0.5.1
+    dependencies:
+      classnames: 2.3.1
+      open-props: 1.4.14
     devDependencies:
       typescript: 4.8.2
       vite: 3.1.0
@@ -727,6 +732,10 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
+
+  /classnames/2.3.1:
+    resolution: {integrity: sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==}
+    dev: false
 
   /cliui/7.0.4:
     resolution: {integrity: sha512-OcRE68cOsVMXp1Yvonl/fzkQOyjLSu/8bhPDfQt0e0/Eb283TKP20Fs2MqoPsr9SwA595rRCA+QMzYc9nBP+JQ==}
@@ -2143,6 +2152,10 @@ packages:
     dependencies:
       wrappy: 1.0.2
     dev: true
+
+  /open-props/1.4.14:
+    resolution: {integrity: sha512-EkTUczMzty8mIvnWGpC41ELIejARiuljsXTEz7YDRKJn5dJ1/njsLTpNhn2rsM3JSW95p4G94ojsgzxbaiFmNA==}
+    dev: false
 
   /optionator/0.9.1:
     resolution: {integrity: sha512-74RlY5FCnhq4jRxVUPKDaRwrVNXMqsGsiW6AJw4XK8hmtm10wC0ypZBLw5IIp85NZMr91+qd1RvvENwg7jjRFw==}
