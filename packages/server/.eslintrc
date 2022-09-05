@@ -1,0 +1,13 @@
+{
+  "extends": ["../../.eslintrc"],
+  "parserOptions": {
+    "babelOptions": {
+      "plugins": [
+        "@babel/plugin-syntax-import-assertions"
+      ]
+    }
+  },
+  "env": {
+    "node": true
+  }
+}
