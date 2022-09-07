@@ -11,7 +11,7 @@ async function batchInsert(dir) {
 
     const promises = files.map(async file => {
       const path = `${dir}/${file}`;
-      const entry = await fs.promises.readFile(path, 'utf-8');
+      const entry = await fs.promises.readFile(path, 'utf8');
       const { rss: { channel: { name, title, item: items } } } = JSON.parse(entry);
       const promises = items.map(item => feeds.insert({ name, title, ...item }));
       await Promise.allSettled(promises);

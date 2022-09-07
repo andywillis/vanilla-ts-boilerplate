@@ -4,7 +4,8 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "dev": "pnpm --filter client run dev"
+    "dev": "pnpm --filter client run dev",
+    "snyk": "snyk test --all-projects"
   },
   "dependencies": {
     "concurrently": "^7.3.0"
