@@ -1,6 +1,7 @@
 {
   "extends": ["../../.eslintrc"],
   "parserOptions": {
+    "requireConfigFile": false,
     "babelOptions": {
       "plugins": [
         "@babel/plugin-syntax-import-assertions"
