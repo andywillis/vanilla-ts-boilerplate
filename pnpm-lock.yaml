@@ -44,12 +44,14 @@ importers:
       dotenv: ^16.0.1
       draftlog: ^1.0.13
       express: ^4.17.1
+      helmet: ^6.0.0
       nodemon: ^2.0.15
     dependencies:
       compression: 1.7.4
       dotenv: 16.0.2
       draftlog: 1.0.13
       express: 4.18.1
+      helmet: 6.0.0
     devDependencies:
       nodemon: 2.0.19
 
@@ -1733,6 +1735,11 @@ packages:
     engines: {node: '>= 0.4.0'}
     dependencies:
       function-bind: 1.1.1
+
+  /helmet/6.0.0:
+    resolution: {integrity: sha512-FO9RpR1wNJepH/GbLPQVtkE2eESglXL641p7SdyoT4LngHFJcZheHMoyUcjCZF4qpuMMO1u5q6RK0l9Ux8JBcg==}
+    engines: {node: '>=14.0.0'}
+    dev: false
 
   /http-errors/2.0.0:
     resolution: {integrity: sha512-FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ==}

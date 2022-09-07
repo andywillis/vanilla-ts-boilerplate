@@ -1,9 +1,9 @@
-import followings from './followings';
+import json from './json';
 import root from './root';
 import sse from './sse';
 
 export default {
-  followings,
+  json,
   root,
   sse
 };

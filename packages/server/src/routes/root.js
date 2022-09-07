@@ -1,5 +1,5 @@
-export default function followings() {
+export default function root() {
   return function (req, res) {
-    res.json({ status: 'success' });
+    res.send();
   };
 }

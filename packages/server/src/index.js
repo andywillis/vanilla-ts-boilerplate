@@ -4,12 +4,13 @@ import { app, port, server } from './service/express';
 
 import routes from './routes/index';
 
-import sseFunction from './helpers/sseFunction';
+// import sseFunction from './helpers/sseFunction';
 
-import followings from '../data/followings' assert { type: 'json' };
+// import followings from '../data/followings' assert { type: 'json' };
 
-app.get('/stream', routes.sse(sseFunction));
-app.get('/followings', routes.followings(followings));
+// app.get('/stream', routes.sse(sseFunction));
+// app.get('/followings', routes.followings(followings));
+app.get('/json', routes.json());
 app.get('/', routes.root());
 
 server.listen(port, () => {

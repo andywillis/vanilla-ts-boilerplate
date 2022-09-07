@@ -2,9 +2,12 @@ import Heading from './components/Heading';
 
 const main = document.querySelector('main');
 
+const response = await fetch('/json');
+const { message } = await response.json();
+
 main.innerHTML = `
   <main>
-    ${Heading({ size: 1, color: 'blue', text: 'This is a heading' })}
+    ${Heading({ size: 1, color: 'blue', text: message })}
   </main>
 `;
 
