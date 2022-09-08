@@ -2,8 +2,10 @@ import Heading from './components/Heading';
 
 const main = document.querySelector('main');
 
-const response = await fetch('/json');
-const { message } = await response.json();
+// const response = await fetch('/json');
+// const { message } = await response.json();
+
+const message = 'Vanilla TS Boilerplate';
 
 main.innerHTML = `
   <main>

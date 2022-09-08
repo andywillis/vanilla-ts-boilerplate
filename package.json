@@ -4,7 +4,9 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "dev": "concurrently \"pnpm run serverdev\" \"pnpm run clientdev\"",
+    "dev": "pnpm run clientdev",
+    "devall": "concurrently \"pnpm run serverdev\" \"pnpm run clientdev\"",
+    "build": "pnpm --filter client run build",
     "clientdev": "pnpm --filter client run dev",
     "serverdev": "pnpm --filter server run dev",
     "snyk": "snyk test --all-projects"

@@ -8,8 +8,8 @@ import rootname from '../../rootname';
 import serverOptions from './config/server';
 
 const app = express();
-
-app.use(express.static(path.join(rootname, '../../client/build')));
+// console.log(path.join(rootname, '../client/build'));
+app.use(express.static(path.join(rootname, '../client/build')));
 app.use(express.json());
 app.use(helmet());
 app.use(compression());
