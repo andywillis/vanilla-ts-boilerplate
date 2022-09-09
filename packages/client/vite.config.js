@@ -19,5 +19,8 @@ export default defineConfig({
     target: 'esnext',
     outDir: '../build',
     sourcemap: true
+  },
+  test: {
+    // reporters: 'verbose'
   }
 });
