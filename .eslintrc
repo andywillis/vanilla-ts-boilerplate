@@ -4,6 +4,7 @@
   ],
   "parser": "@babel/eslint-parser",
   "parserOptions": {
+    "requireConfigFile": false,
     "ecmaVersion": "latest"
   },
   "settings": {
@@ -22,6 +23,7 @@
     }],
     "import/no-extraneous-dependencies": 0,
     "no-underscore-dangle": 0,
+    "import/no-relative-packages": 0,
     "no-plusplus": 0,
     "default-case": 0,
     "func-names": 0,

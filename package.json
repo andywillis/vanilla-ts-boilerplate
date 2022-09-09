@@ -1,7 +1,8 @@
 {
-  "name": "test",
+  "name": "vanilla-ts-boilerplate",
   "root": true,
   "private": true,
+  "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "pnpm run clientdev",
@@ -9,6 +10,7 @@
     "build": "pnpm --filter client run build",
     "clientdev": "pnpm --filter client run dev",
     "serverdev": "pnpm --filter server run dev",
+    "test": "pnpm --filter client run test",
     "snyk": "snyk test --all-projects"
   },
   "dependencies": {
@@ -22,6 +24,8 @@
     "@typescript-eslint/parser": "^5.33.1",
     "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "15.0.0",
-    "eslint-plugin-import": "^2.25.2"
+    "eslint-plugin-import": "^2.25.2",
+    "vite": "^2.9.9",
+    "vitest": "^0.12.6"
   }
 }
