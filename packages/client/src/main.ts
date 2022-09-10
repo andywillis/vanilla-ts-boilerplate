@@ -1,5 +1,7 @@
 import Heading from './components/Heading';
 
+import './main.module.css';
+
 const main = document.querySelector('main');
 
 // const response = await fetch('/json');
